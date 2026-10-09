@@ -1,0 +1,10 @@
+# Local configuration and secrets
+.env
+.env.*
+
+# Operating-system clutter
+Thumbs.db
+.DS_Store
+
+# Log files
+*.log
