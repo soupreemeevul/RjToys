@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "RJ Toys — browser debugging",
+      "type": "msedge",
+      "request": "launch",
+      "file": "E:/RJtoys/index.html"
+    }
+  ]
+}
