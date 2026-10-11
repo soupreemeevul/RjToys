@@ -1,0 +1,15 @@
+h1 {
+  display: inline-block;
+  background: linear-gradient(to right, #002e5c, #03d878);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.gallery-card {
+  max-width: 22rem;
+}
+
+nav a[aria-current="page"] {
+  font-weight: 700;
+}

@@ -3,45 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RJtoys</title>
+  <title>RJtoys | Completed customs</title>
   <link
   href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
   rel="stylesheet"
   integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
   crossorigin="anonymous">
-<style>
-  h1{
-display: inline-block;
-background: linear-gradient(to right, #002e5c, #03d878);
-background-clip: text;
--webkit-background-clip: text;
-color: transparent;
-  }
-</style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="container pt-4">
+  <header class="container pt-4 text-center">
     <h1>RJtoys</h1>
+
+    <nav
+      class="d-flex justify-content-center flex-wrap gap-3 mt-3"
+      aria-label="Main navigation"
+    >
+      <a href="index.html" aria-current="page">Completed customs</a>
+      <a href="workbench.html">On the workbench</a>
+    </nav>
   </header>
-  <main class="container my-5">
-    <h2 class="mb-3">On the workbench</h2>
+  <main class="container my-5 text-center">
+    <section class="mb-5" aria-labelledby="completed-heading">
+      <h2 id="completed-heading" class="mb-3">Completed customs</h2>
 
-    <figure class="card" style="max-width: 22rem;">
-      <img
-        src="images/workbench-01.jpg"
-        class="card-img-top img-fluid"
-        width="710"
-        height="1536"
-        alt="White-and-blue custom action figure lying on a cutting mat during construction."
-      >
+      <div class="row g-4 justify-content-center">
 
-      <figcaption class="card-body">
-        <p class="card-text mb-0">
-          <strong>Work in progress.</strong>
-          A custom figure on the RJ Toys workbench.
-        </p>
-      </figcaption>
-    </figure>
+        <div class="col-12 col-md-6 col-lg-4">
+          <figure class="card gallery-card mx-auto mb-0">
+            <img
+              src="images/samurai-batman.jpg"
+              class="card-img-top img-fluid"
+              width="710"
+              height="1536"
+              alt="Custom figure in dark samurai-style armor with a bright yellow belt."
+            >
+
+            <figcaption class="card-body">
+              <h3 class="h5 card-title mb-0">Samurai Batman</h3>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <figure class="card gallery-card mx-auto mb-0">
+            <img
+              src="images/joker.jpg"
+              class="card-img-top img-fluid"
+              width="710"
+              height="1536"
+              alt="Green-skinned custom figure with white hair, a red shirt, olive trousers, and red shoes."
+            >
+
+            <figcaption class="card-body">
+              <h3 class="h5 card-title mb-0">Joker</h3>
+            </figcaption>
+          </figure>
+        </div>
+
+      </div>
+    </section>
+    
   </main>
 </body>
 </html>
