@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+
 h1 {
   display: inline-block;
   background: linear-gradient(to right, #002e5c, #03d878);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  font-family: 'Uncial Antiqua', Georgia, serif;
 }
 
 .gallery-card {
