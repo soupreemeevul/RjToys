@@ -10,8 +10,13 @@ h1 {
 }
 
 .gallery-card {
-  max-width: 22rem;
+  max-width: 26rem;
 }
+.gallery-card img{
+  width: 100%;
+  height: auto;
+} 
+
 
 nav a[aria-current="page"] {
   font-weight: 700;
