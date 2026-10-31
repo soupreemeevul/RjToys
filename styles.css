@@ -10,13 +10,21 @@ h1 {
 }
 
 .gallery-card {
-  max-width: 26rem;
+  max-width: 22rem;
+  border: 1px solid #d5d9dc;
+  border-radius: 4px;
+  background: #fff;
+  overflow: hidden;
 }
+
 .gallery-card img{
   width: 100%;
   height: auto;
 } 
 
+body{
+  background-color: #e5d9f2;
+}
 
 nav a[aria-current="page"] {
   font-weight: 700;
