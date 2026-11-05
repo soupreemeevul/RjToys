@@ -2,18 +2,25 @@
 
 h1 {
   display: inline-block;
-  background: linear-gradient(to right, #002e5c, #03d878);
+  background: linear-gradient(
+  110deg,
+  #293b70 0%,
+  #68478d 55%,
+  #9b6aab 100%  
+  );
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   font-family: 'Uncial Antiqua', Georgia, serif;
+  -webkit-text-stroke: 0.3px #b18a49;
+  paint-order: stroke fill;
 }
 
 .gallery-card {
   max-width: 22rem;
-  border: 1px solid #d5d9dc;
+  border: 1px solid #c7b5db;
   border-radius: 4px;
-  background: #fff;
+  background-color: #e8ddf2;
   overflow: hidden;
 }
 
@@ -26,6 +33,28 @@ body{
   background-color: #e5d9f2;
 }
 
+
+nav a {
+  color: #293B70;
+  font-family: Georgia, serif;
+  font-size: 1.05rem;
+  text-decoration: none;
+  padding: 0.4rem 0.6rem;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+nav a:hover {
+  color: #68478D;
+  border-bottom-color: #B18A49;
+}
+
 nav a[aria-current="page"] {
   font-weight: 700;
+  border-bottom-color: #B18A49;
+}
+
+nav a:focus-visible {
+  outline: 2px solid #293B70;
+  outline-offset: 3px;
 }
